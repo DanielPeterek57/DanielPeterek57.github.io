@@ -36,7 +36,7 @@ iframe {
     
 }
 
-#navbar {
+nav#navbar {
     background-color: #484747;
     color: white;
     display: flex;
@@ -48,22 +48,22 @@ iframe {
     border-radius: 15px;
 }
 
-#navbar a {
+nav#navbar a {
     color: white;
     text-decoration: none;
 }
-#navbar ul {
+nav#navbar ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-#navbar  a {
+nav#navbar  a {
     padding: 10px;
     margin: 0 4px;
 }
 
-#navbar  a:hover {
+nav#navbar  a:hover {
     background-color: #59c862;
     border-radius: 5px;
   }
