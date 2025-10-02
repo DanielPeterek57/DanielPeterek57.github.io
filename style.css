@@ -1,12 +1,11 @@
 body {
-    background-image: url('https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg');
-    background-size: cover;        
-    background-position: center;  
-
+    background: url('https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg') no-repeat center center fixed;
+    background-size: cover;
+   
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.363);
+    background-color: rgba(255, 255, 255, 0.589);
     max-width: 1000px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -15,7 +14,9 @@ body {
     text-align: center;
 }
 img {
-    border-radius: 15px; 
+    border-radius: 15px;
+ width: 300px;
+    height: 300px;
     
 }
 p {
@@ -28,8 +29,41 @@ p {
     
     }
 
+
 iframe {
     border-radius: 15px; 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
+
+#navbar {
+    background-color: #484747;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar  a {
+    padding: 10px;
+    margin: 0 4px;
+}
+
+#navbar  a:hover {
+    background-color: #59c862;
+    border-radius: 5px;
+  }
