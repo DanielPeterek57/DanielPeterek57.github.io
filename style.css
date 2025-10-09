@@ -68,9 +68,9 @@ nav#navbar  a:hover {
     border-radius: 5px;
   }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     nav#navbar {
-        flex-direction: block;
+        flex-direction: column; 
         align-items: flex-start;
     }
     nav#navbar .logo {
@@ -78,7 +78,7 @@ nav#navbar  a:hover {
         font-size: 1.5em;
     }
     nav#navbar ul {
-        flex-direction: block;
+        flex-direction: column; 
         gap: 10px;
         width: 100%;
     }
