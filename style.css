@@ -68,6 +68,8 @@ nav#navbar  a:hover {
     border-radius: 5px;
   }
 
+
+
 @media (max-width: 600px) {
     nav#navbar {
         flex-direction: column; 
