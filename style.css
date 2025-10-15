@@ -106,3 +106,70 @@ nav#navbar  a:hover {
         display: none;
     }
 }
+
+/* Back arrow button for navigation to index.html */
+.back-arrow {
+    position: fixed;
+    top: 18px;
+    left: 18px;
+    z-index: 1000;
+    background: #59c862;
+    color: white;
+    font-size: 2.2em;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    transition: background 0.2s, color 0.2s;
+}
+.back-arrow:hover {
+    background: #434443;
+    color: #fff200;
+}
+@media (max-width: 600px) {
+    .back-arrow {
+        top: 8px;
+        left: 8px;
+        font-size: 1.5em;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+
+.table_component {
+    overflow-x: auto;
+    margin-top: 20px;
+    padding: 8px 0;
+}
+.table_component table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255,255,255,0.95);
+    color: #111;
+    margin: 0 auto;
+}
+.table_component caption {
+    caption-side: top;
+    font-weight: 700;
+    padding: 8px 0;
+    font-size: 1.1rem;
+}
+.table_component th,
+.table_component td {
+    border: 1px solid #ffffff;
+    padding: 10px 12px;
+    text-align: left;
+}
+.table_component thead th {
+    background: rgba(114, 114, 114, 0.637);
+}
+.table_component tbody tr:nth-child(even) {
+    background: rgba(0,0,0,0.03);
+}
+
+
