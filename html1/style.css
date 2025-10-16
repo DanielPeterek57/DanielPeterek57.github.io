@@ -76,30 +76,30 @@ nav#navbar  a:hover {
         align-items: flex-start;
     }
     nav#navbar .logo {
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem; 
         font-size: 1.5em;
     }
     nav#navbar ul {
         flex-direction: column; 
-        gap: 10px;
+        gap: 0.625rem; 
         width: 100%;
     }
     nav#navbar ul li a {
         font-size: 1em;
-        padding: 8px;
+        padding: 0.5em; 
         display: block;
     }
     .container {
-        padding: 10px;
-        margin: 10px;
+        padding: 0.625rem; 
+        margin: 0.625rem; 
     }
     img, iframe {
         max-width: 100%;
         height: auto;
     }
     p {
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: 0.3125rem; 
+        margin-right: 0.3125rem; 
         font-size: 1rem;
     }
     .menu-text {
@@ -110,20 +110,20 @@ nav#navbar  a:hover {
 
 .back-arrow {
     position: fixed;
-    top: 18px;
-    left: 18px;
+    top: 1.125rem; 
+    left: 1.125rem; 
     z-index: 1000;
     background: #59c862;
     color: white;
     font-size: 2.2em;
     border-radius: 50%;
-    width: 44px;
-    height: 44px;
+    width: 2.75rem; 
+    height: 2.75rem; 
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.18); 
     transition: background 0.2s, color 0.2s;
 }
 .back-arrow:hover {
@@ -132,11 +132,11 @@ nav#navbar  a:hover {
 }
 @media (max-width: 600px) {
     .back-arrow {
-        top: 8px;
-        left: 8px;
+        top: 0.5rem; 
+        left: 0.5rem; 
         font-size: 1.5em;
-        width: 32px;
-        height: 32px;
+        width: 2em; 
+        height: 2em; 
     }
 }
 
