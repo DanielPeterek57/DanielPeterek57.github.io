@@ -159,7 +159,7 @@ nav#navbar  a:hover {
     padding: 8px 0;
     font-size: 1.1rem;
 }
-.table_component th,
+
 .table_component td {
     border: 1px solid #ffffff;
     padding: 10px 12px;

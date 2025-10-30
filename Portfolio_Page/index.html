@@ -4,60 +4,42 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Daniel Peterek — Portfolio</title>
-    <link rel="stylesheet" href="../style_portfolio.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="style_portfolio.css" />
   </head>
   <body>
-    <nav id="navbar" class="nav">
-      <ul class="nav-list">
+    <nav>
+      <ul>
         <li><a href="#welcome-section">O mně</a></li>
         <li><a href="#projects">Projekty</a></li>
         <li><a href="#contact">Kontakt</a></li>
-        <li><a href="#source">zdroje</a></li>
+        <li><a href="../zdroje.html" target="_blank">Zdroje</a></li>
       </ul>
     </nav>
 
-    <section id="welcome-section" class="welcome-section">
-      <h1>Čau, jsem Daniel</h1>
-      <p>Programator Junior</p>
-    </section>
+    <div class="container">
+      <section id="welcome-section">
+        <h1>Daniel Peterek</h1>
+        <p>Junior programátor</p>
+      </section>
 
-    <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">Vybraný projekt — Moje stránka</h2>
-      <div class="projects-grid">
-        <a href="../html1/index.html" class="project project-tile" target="_blank">
+      <section id="projects">
+        <h2>Moje projekt</h2>
+        <a href="../html1/index.html" target="_blank">
           <img class="project-image" src="../html1/preview.jpg" alt="Moje stránka" />
-          <p class="project-title"><span class="code">&lt;</span> Moje stránka <span class="code">&#47;&gt;</span></p>
+          <p><b>Moje stránka</b></p>
         </a>
-      </div>
-    </section>
+      </section>
 
-    <section id="contact" class="contact-section">
-      <div class="contact-section-header">
-        <h2>Spolupracujme</h2>
-        <p>Napiš mi — rád se domluvím</p>
-      </div>
-      <div class="contact-links">
-        <a id="profile-link" href="https://github.com/DanielPeterek57" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
-      </div>
-    </section>
+      <section id="contact">
+        <h2>Kontakt</h2>
+        <p>
+          <a href="https://github.com/DanielPeterek57" target="_blank">GitHub</a>
+        </p>
+      </section>
 
-    <footer>
-      <p>&copy; 2025 Daniel Peterek — Všechna práva vyhrazena.</p>
-    </footer>
-
-    
+      <footer>
+        &copy; 2025 Daniel Peterek
+      </footer>
+    </div>
   </body>
 </html>
